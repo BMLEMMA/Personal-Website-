@@ -1,0 +1,200 @@
+body {
+	margin:0%;
+	font-family: 'Times New Roman', sans-serif;
+	color: black;
+	background-color: rosybrown;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	}
+
+.nav_bar {
+	background-color: #333;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	font-family:'Courier New', Courier, monospace;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.nav_bar a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 25px 63.2px;
+	text-decoration: none;
+	color: hsl(329, 21%, 79%);
+	margin-bottom: 1px;
+	margin-top: 1px;
+	transition: color 0.3s ease;
+	
+}
+.weather a {
+	color: black;
+}
+.nav_bar a:hover {
+	color: #fff; 
+  }
+
+.introContent {
+	display: flex;
+	width: 85%;
+}
+.were {
+	display:flex;
+	flex-direction: column;
+	font-family: 'Courier New', Monospace;
+}
+.intro {
+	font-family: 'Courier New', Monospace;
+	margin-right: 90px;
+	width: 50%;
+	font-size: 50px;
+	background-color:rosybrown;
+}
+
+
+.introContent .pic,
+.introContent .intro {
+   padding: 70px;
+}
+
+.first_page {
+	margin-top: 90px;
+}
+
+.first_page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.first_page .pic,
+.first_page p {
+	font-size: large;
+}
+
+.small_intro {
+	margin-right: 100px;
+	font-size: 20px;
+	float:left;
+	margin-top: 15px;
+}
+  
+.paragraph {
+	margin-top: 90px;
+	line-height: 30px;
+	margin-left: 15px;
+	margin-right: 20px;
+}
+
+.Welcome {
+	font-size: xx-large;
+	font-weight: bold;
+}
+
+.After_Welcome {
+	font-size: larger;
+}
+
+.Welcome, .After_Welcome {
+	margin-top: 30px;
+}
+.pic {
+	height: 100%;
+	width: 50%;
+	margin-left: 150px;
+	margin-top: 30px;
+}
+
+.pic img {
+	border-radius: 50%; 
+	border-color: #333;
+	border-width: 30px;
+	border-style: solid;
+	box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.2), 0 0 0 60px rgba(0, 0, 0, 0.1); 
+	width: 200px;
+	height: 200px;
+}
+
+.Education,
+.Projects,
+.Connect, 
+.Languages {
+  margin-top: 75px;
+  line-height: 25px;
+}
+
+.Languages, .Projects, .resume {
+	line-height: 30px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.Education, .Connect {
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 30px;
+	font-size: larger;
+}
+.weather, .Tic{
+	border-width: 2px;
+	border-color: #333;
+	border-style: solid;
+	width: 200px;
+	height: 100px;
+	box-shadow: 0 32px 32px rgba(0, 0, 0, 0.1);
+	padding: 25px;
+	margin-bottom: 25px;
+	display: inline-block;
+    vertical-align: top; 
+    margin-right: 20px; 
+	margin-left: 25px;
+}
+
+
+.Tic {
+	margin-left: 300px;
+}
+
+.r, .python, .html_logo, .css_logo{
+	display: inline-block;
+	margin-bottom: 75px;
+	display: inline-block;
+    vertical-align: top; 
+    margin-right: 200px; 
+	margin-left: 25px;
+	width: 50px;
+	height: 50px;
+	box-shadow: 0 64px 64px rgba(0, 0, 0, 0.1);
+}
+
+.r {
+	margin-left: 80px;
+}
+
+.Tic a:hover {
+	color: #fff
+}
+
+.weather a:hover {
+	color: #fff
+}
+
+.footer {
+	background-color: #333;
+	color: hsl(329, 21%, 79%);
+	padding: 2.5% 42%;
+	white-space: nowrap;
+ }
+
+ .footer a:hover {
+	color: #fff; 
+  }
+a:link { 
+	color: hsl(329, 21%, 79%);
+	}
+a:hover {	
+	color: hsl(329, 21%, 79%);
+	}
+a:visited {	
+	color: hsl(329, 21%, 79%);
+	}
