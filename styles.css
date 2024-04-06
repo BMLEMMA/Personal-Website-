@@ -2,13 +2,13 @@ body {
 	margin:0%;
 	font-family: 'Times New Roman', sans-serif;
 	color: black;
-	background-color: rosybrown;
+	background-color: #9a8c98;
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 	}
 
 .nav_bar {
-	background-color: #333;
+	background-color: #22223B;
 	overflow: hidden;
 	position: fixed;
 	top: 0;
@@ -21,18 +21,18 @@ body {
 	text-align: center;
 	padding: 25px 63.2px;
 	text-decoration: none;
-	color: hsl(329, 21%, 79%);
+	color: #f2e9e4;
 	margin-bottom: 1px;
 	margin-top: 1px;
 	transition: color 0.3s ease;
 	
 }
-.weather a {
-	color: black;
-}
-.nav_bar a:hover {
-	color: #fff; 
+
+
+.nav_bar a:hover{
+	color: #FFFFFF; 
   }
+
 
 .introContent {
 	display: flex;
@@ -48,7 +48,7 @@ body {
 	margin-right: 90px;
 	width: 50%;
 	font-size: 50px;
-	background-color:rosybrown;
+	background-color:#9a8c98;
 }
 
 
@@ -58,7 +58,7 @@ body {
 }
 
 .first_page {
-	margin-top: 90px;
+	margin-top: 50px;
 }
 
 .first_page {
@@ -107,7 +107,7 @@ body {
 
 .pic img {
 	border-radius: 50%; 
-	border-color: #333;
+	border-color: #22223B;
 	border-width: 30px;
 	border-style: solid;
 	box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.2), 0 0 0 60px rgba(0, 0, 0, 0.1); 
@@ -135,36 +135,58 @@ body {
 	line-height: 30px;
 	font-size: larger;
 }
-.weather, .Tic{
-	border-width: 2px;
-	border-color: #333;
-	border-style: solid;
-	width: 200px;
-	height: 100px;
-	box-shadow: 0 32px 32px rgba(0, 0, 0, 0.1);
-	padding: 25px;
-	margin-bottom: 25px;
-	display: inline-block;
-    vertical-align: top; 
-    margin-right: 20px; 
-	margin-left: 25px;
+.Projects {
+    display: flex;
+    justify-content: flex-start; /* Adjust as needed */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
 }
 
-
-.Tic {
-	margin-left: 300px;
+.Projects .Tic .ticwords a,
+.Projects .weather .weatherwords a {
+    color: #22223B;
 }
+
+.Projects .Tic .ticwords a:hover,
+.Projects .weather .weatherwords a:hover {
+    color: #FFFFFF; /* White color when hovered */
+}
+
+.Tic, .weather {
+    width: 40%; /* Adjust width as needed */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ticwords, .weatherwords {
+    margin-top: 100px; 
+	margin-bottom: 100px;
+	color: black;
+	font-size: larger;
+}
+
+.tictactoepic img, .weather_pic img {
+    width: 100px;
+	height: 100px; 
+	border-radius: 50%; /* Make the image circular */
+    overflow: hidden;
+	box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.2), 0 0 0 60px rgba(0, 0, 0, 0.1); 
+}
+
 
 .r, .python, .html_logo, .css_logo{
 	display: inline-block;
 	margin-bottom: 75px;
 	display: inline-block;
     vertical-align: top; 
-    margin-right: 200px; 
+	margin-top: 50px;
+    margin-right: 150px; 
 	margin-left: 25px;
-	width: 50px;
-	height: 50px;
-	box-shadow: 0 64px 64px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	width: 100px;
+	height: 100px; 
+	border-radius: 50%; /* Make the image circular */
+    overflow: hidden;
+	box-shadow: 0 0 0 30px rgba(0, 0, 0, 0.2), 0 0 0 60px rgba(0, 0, 0, 0.1);  
 }
 
 .r {
@@ -179,9 +201,31 @@ body {
 	color: #fff
 }
 
+.add_info_tic,
+.add_info_weather {
+    font-size: large;
+    word-wrap: break-word;
+    border: solid;
+	border-color: #22223B;
+    padding: 10px;
+    box-sizing: border-box; 
+    width: calc(50% - 20px); 
+    float: left; 
+	margin-top:60px;
+	margin-bottom: 30px;
+}
+
+.add_info_weather {
+    margin-left: 40px; /* Add some margin between the two elements */
+}
+
+
+.resume {
+	margin-top: 20px;
+}
 .footer {
-	background-color: #333;
-	color: hsl(329, 21%, 79%);
+	background-color: #22223B;
+	color: #f2e9e4;
 	padding: 2.5% 42%;
 	white-space: nowrap;
  }
@@ -190,10 +234,10 @@ body {
 	color: #fff; 
   }
 a:link { 
-	color: hsl(329, 21%, 79%);
+	color: #f2e9e4;
 	}
 a:hover {	
-	color: hsl(329, 21%, 79%);
+	color: white;
 	}
 a:visited {	
 	color: hsl(329, 21%, 79%);
