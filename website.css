@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header, .footer{
+    background-color:rgb(122, 71, 158);
+    height: 10%;
+    word-spacing: 300px;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 2.5%;
+    padding-right: 10%;
+}
+.intro{
+    height:50%;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 5%;
+    padding-top: 8%;
+}
+.research{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+.languages {
+    margin-left: 5%;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 5%
+}
+.picture img{
+    height: 100%;
+    margin-left: 60%;
+    border-radius: 100%;
+    box-shadow: 0 0 0 30px rgba(47, 6, 93, 0.2), 0 0 0 60px rgba(123, 55, 171, 0.1); 
+}
+.projects {
+    height:40%;
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
